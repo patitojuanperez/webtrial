@@ -1,6 +1,7 @@
 body{
 	margin: 0px;
 	font-family: Arial;
+	font-size: 12px;
 	--main_color: #FF3333;
 	--top-text-color: white;
 	background-color: #F4F6F6;
