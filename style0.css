@@ -1,7 +1,6 @@
 .text_header{
 	font-size: 20px;
 	color: gray;
-	max-width: 500px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 10px;
@@ -13,7 +12,6 @@
 }
 
 .content_box{
-	max-width: 500px;
 	border: 1px solid #EBEDEF;
 	border-radius: 3px;
 	margin-right: auto;
