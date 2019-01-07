@@ -1,14 +1,13 @@
 body{
 	margin: 0px;
 	font-family: Arial;
-	font-size: 14px;
 	--main_color: #FF3333;
 	--top-text-color: white;
 	background-color: #F4F6F6;
 }
 
 .top_{
-	height: 100px;
+	height: 170px;
 	line-height: 100px;
 	width: 100%;
 	text-align: center;
@@ -18,5 +17,5 @@ body{
 }
 
 .image{
-	height: 100%;
+	height: 100px;
 }
