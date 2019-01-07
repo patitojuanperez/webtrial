@@ -3,64 +3,93 @@
 <link href="style0.css" rel="stylesheet" type="text/css">
 <link href="style2.css" rel="stylesheet" type="text/css">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=2">
+<meta name="viewport" content="width=device-width, initial-scale=2">
 <meta charset="UTF-8">
 <title>Embedded Style Sheet</title>
 </head>
 
 <body>
 
-<div class="content_">
-	<div class="text_header">&lt; Back</div>
-	<div class="content_box" style="padding: 20px;">
-		<div style="padding-right: 15px;">
-			<input class="input" type="text" style="height: 30px;" placeholder="Title"><br>
-			<textarea class="input" type="text" style="height: 90px; padding-top: 10px;" placeholder="Subtitle"></textarea>	
+	<div id="mySidenav" class="sidenav">
+		<div style="padding: 40px;">
+			<div style="height: 80px; width: 100%; vertical-align: middle;">
+				<img src="profile.png" style="display: inline-block; vertical-align: middle;">
+				<div style="display: inline-block; vertical-align: middle; margin-left: 10px;">
+					<a style="font-weight: bold;">fran.kova</a><br>
+					<a>fran.kovacevich@gmail.com</a>
+				</div>
+			</div>
+			<div>
+				<a>MY PAGES</a><br><br>
+			</div>
+			<div>
+				<a>MY SUBSCRIPTIONS</a>
+			</div>
 		</div>
-		<div style="margin-left: auto;margin-right: auto;">
-			<div class="image_button_icon"><img src="icon1.png"></div>
-			<div class="image_button_icon"><img src="icon2.png"></div>
-			<div class="image_button_icon"><img src="icon3.png"></div>
-			<div class="image_button_icon"><img src="icon4.png"></div>
-			<div class="image_button_icon"><img src="icon5.png"></div>
-			<div class="image_button_icon"><img src="icon6.png"></div>
-			<div class="image_button_icon"><img src="icon7.png"></div>
-			<div class="image_button_icon"><img src="icon8.png"></div>
-			<div class="image_button_icon"><img src="icon9.png"></div>
-			<div class="image_button_icon"><img src="icon10.png"></div>
-			<div class="image_button_icon"><img src="icon1.png"></div>
-			<div class="image_button_icon"><img src="icon2.png"></div>
-			<div class="image_button_icon"><img src="icon3.png"></div>
-			<div class="image_button_icon"><img src="icon4.png"></div>
-			<div class="image_button_icon"><img src="icon5.png"></div>
-			<div class="image_button_icon"><img src="icon6.png"></div>
-			<div class="image_button_icon"><img src="icon7.png"></div>
-			<div class="image_button_icon"><img src="icon8.png"></div>
-			<div class="image_button_icon"><img src="icon9.png"></div>
-			<div class="image_button_icon"><img src="icon10.png"></div>
-		</div>
-		
-		<div style="margin-top: 20px; margin-bottom: 10px;">
-			<label class="switch">
-	  		<input type="checkbox">
-	  		<span class="slider round"></span>
-	  		</label>
-	  		<a>Send members a notification</a>
-		</div>
-
-		<div style="margin-top: 10px; margin-bottom: 20px;">
-			<label class="switch">
-	  		<input type="checkbox" checked>
-	  		<span class="slider round"></span>
-	  		</label>
-	  		<a>Add rich content </a>
-		</div>
-
-		<div style="padding-right: 15px;">
-			<textarea class="input" type="text" style="height: 200px; padding-top: 10px;" placeholder="Rich Content"></textarea>	
-		</div>
+  	<a class="closebtn" onclick="closeNav()">&times;</a>
 	</div>
 
-</div>
+	<div class="top_">
+		<a class="menu_button" onclick="openNav()">☰</a>
+		<img class="image" src="http://weathergroup.com/sites/default/files/styles/adaptive/public/images/localnow_fullcolor.png?itok=RYnBCt1y">
+		<div style="width: 100%;"><div class="button" style="margin-right: auto; margin-left: auto; width:130px;">+ Subscribe</div></div>
+	</div>
+	
+
+	<div class="content_">
+		<div class="content_box">
+			<table>
+				<tr>
+					<td class="td1"><img src="icon8.png" class="img_icon"></td>
+					<td>
+						<h2>Hello</h2>
+						<p>Breaking news! Some russian idiot twitted some russian shit so we give him some retweets, well i say fuck that shit it ain't going to be me who gives them the retweet they are looking fore, there i said it</p>
+					</td>
+					<td class="td3"><a>EDIT</a></td>
+				</tr>
+			</table>
+			<iframe src="https://drive.google.com/file/d/0B7gN4fv82pQxaVNEVXlLbGsyQ00/preview" width="100%" height="300"></iframe>
+		</div>
+		<div class="content_box">
+			<table>
+				<tr>
+					<td class="td1"><img src="icon6.png" class="img_icon"></td>
+					<td>
+						<h2>Goodbye</h2>
+						<p>What!</p>
+					</td>
+					<td  class="td3"><a>EDIT</a></td>
+				</tr>
+			</table>
+			<img src="https://i.imgur.com/m1ECvor.jpg" style="width: 100%; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; margin-bottom: -4px">
+		</div>
+		<div class="content_box">
+			<table>
+				<tr>
+					<td  class="td1"><img src="icon10.png" class="img_icon"></td>
+					<td>
+						<h2>More content!</h2>
+						<p>Yeah! adwadwaddwad awdw adwa dwa dwa dwa dwa dwa dwa dwa d wadw ad wad wad wad wad wad wad wad wad wad wa dwa dwa dwa daw dwa dwa dwa da da wdw adw adw adwa </p>
+					</td>
+				</tr>
+			</table>
+			<iframe width="100%" height="315" style="margin-bottom: -4px;" src="https://www.youtube.com/embed/VG0nUr_fDhY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+	</div>
+
+	<a class="float">+</a>
+
 </body>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "400px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
 </html>
